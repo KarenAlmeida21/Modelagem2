@@ -7,4 +7,19 @@ public class Guerreiro extends Heroi{
         super(nome, vida);
         this.poder_ataque = poder_ataque;
     }
+
+    public double getPoder_ataque() {
+        return poder_ataque;
+    }
+
+    public void setPoder_ataque(double poder_ataque) {
+        this.poder_ataque = poder_ataque;
+    }
+
+    public double aplicar_dano (){
+         double dano=20;
+        return dano;
+    }
+
+
 }

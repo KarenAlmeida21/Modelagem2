@@ -14,6 +14,7 @@ public class Heroi {
         public Heroi(String nome, double vida){
             this.nome=nome;
             this.vida=vida;
+
         }
 
         public String getNome() {
@@ -39,13 +40,17 @@ public class Heroi {
         public void receber_dano (double dano){
 
             vida= vida-dano;
-
-
         }
 
+    public double exibir_vida() {
+        return vida;
 
-
-
-        }
     }
+        }
+
+
+
+
+
+
 
